@@ -42,8 +42,9 @@ public class WanderBehavior : StateMachineBehaviour {
     // INPUT YOUR CODE HERE - write your own animation parameter calls for this state.
     // Example: animator.SetBool("isWalking", true);
     // Use SetBool or SetInteger. Do not use SetTrigger here - this runs every frame.
-    private void StudentUpdate(Animator animator) {
-
+    private void StudentUpdate(Animator animator) 
+    {
+   
     }
 
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
